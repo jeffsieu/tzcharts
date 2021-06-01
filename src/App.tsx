@@ -9,7 +9,7 @@ import { TokenListProvider } from 'contexts/TokenList';
 import { PropsWithChildren, useState } from 'react';
 import TokenPage from 'pages/TokenPage';
 import HomePage from 'pages/HomePage';
-import {blue} from '@material-ui/core/colors';
+import { blue } from '@material-ui/core/colors';
 import AccountBalanceList from 'components/AccountBalanceList';
 
 const useStyles = makeStyles((theme: Theme) => ({
@@ -42,14 +42,14 @@ export default function App(props: PropsWithChildren<{}>) {
             <Router>
               <ThemeProvider theme={theme}>
                 <CssBaseline></CssBaseline>
-                  <MainAppBar onRightMenuClick={toggleDrawer}></MainAppBar>
+                <MainAppBar onRightMenuClick={toggleDrawer}></MainAppBar>
                 <Drawer
                   anchor="right"
                   open={isDrawerOpen}
                   variant={drawerVariant}
                   onClose={() => setDrawerOpen(false)}
-                  >
-                    <Toolbar/>
+                >
+                  <Toolbar />
                   <AccountBalanceList></AccountBalanceList>
                 </Drawer>
                 <RouterSwitch>
@@ -63,9 +63,6 @@ export default function App(props: PropsWithChildren<{}>) {
           </TokenListProvider>
         </TezosAccountProvider>
       </TezosPriceProvider>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"></link>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     </div>
   )
 }
