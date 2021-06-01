@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tzcharts/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/tzcharts/static/js/main.a7acaf59.chunk.js",
+    "main.js.map": "/tzcharts/static/js/main.a7acaf59.chunk.js.map",
+    "runtime-main.js": "/tzcharts/static/js/runtime-main.be22e72c.js",
+    "runtime-main.js.map": "/tzcharts/static/js/runtime-main.be22e72c.js.map",
+    "static/js/2.7ae4f619.chunk.js": "/tzcharts/static/js/2.7ae4f619.chunk.js",
+    "static/js/2.7ae4f619.chunk.js.map": "/tzcharts/static/js/2.7ae4f619.chunk.js.map",
+    "static/js/3.9c0f60d6.chunk.js": "/tzcharts/static/js/3.9c0f60d6.chunk.js",
+    "static/js/3.9c0f60d6.chunk.js.map": "/tzcharts/static/js/3.9c0f60d6.chunk.js.map",
+    "index.html": "/tzcharts/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/tzcharts/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7ae4f619.chunk.js.LICENSE.txt": "/tzcharts/static/js/2.7ae4f619.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be22e72c.js",
+    "static/js/2.7ae4f619.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a7acaf59.chunk.js"
+  ]
+}
